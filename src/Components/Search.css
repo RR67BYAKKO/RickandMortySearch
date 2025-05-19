@@ -1,0 +1,37 @@
+.form__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+}
+
+.form__input {
+	background-color: aliceblue;
+	border: none;
+	outline: none;
+	padding: 7px 12px;
+	border-radius: 4px 0 0 4px;
+	width: 25%;
+}
+
+.form__button {
+	background-color: yellowgreen;
+	color: aliceblue;
+	font-weight: 600;
+	border: none;
+	outline: none;
+	padding: 7px 12px;
+	border-radius: 0 4px 4px 0;
+	animation: glow 2s infinite;
+}
+
+.form__button:hover {
+	background-color: #0bb4e4;
+	transition: 1s ease;
+}
+
+@keyframes glow {
+	50% {
+		box-shadow: 0px 0px 20px #0bb4e4;
+	}
+}

@@ -1,0 +1,32 @@
+.header {
+	height: 50dvh;
+	background-image: url('src/assets/img/R&MWALLPAPER.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px -80px;
+	align-items: center;
+}
+
+.main {
+	margin-block: 3em;
+}
+
+.section {
+	background-color: #0c9cc449;
+	padding-block: 3em;
+}
+
+.container {
+	padding-inline: 1em;
+	max-width: 1200px;
+	margin-inline: auto;
+}
+
+.error {
+	text-align: center;
+	margin: 0;
+	color: palevioletred;
+	font-weight: bolder;
+	font-size: medium;
+	margin-bottom: 0.5em;
+}
