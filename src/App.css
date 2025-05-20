@@ -1,6 +1,6 @@
 .header {
 	height: 50dvh;
-	background-image: url('src/assets/img/R&MWALLPAPER.jpg');
+	background-image: url('./assets/img/R&MWALLPAPER.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0px -80px;
